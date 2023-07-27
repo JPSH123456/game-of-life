@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                git 'https://github.com/JPSH123456/addressbook-demo.git'
+                git 'https://github.com/JPSH123456/game-of-life.git'
             }
         }
         stage('build application'){
